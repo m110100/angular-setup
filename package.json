@@ -9,16 +9,6 @@
 		"test": "ng test"
 	},
 	"type": "module",
-	"husky": {
-		"hooks": {
-			"pre-commit": "lint-staged"
-		}
-	},
-	"lint-staged": {
-		"*.(css|scss)": [
-			"stylelint --fix"
-		]
-	},
 	"private": true,
 	"dependencies": {
 		"@angular/animations": "^19.0.0",
@@ -44,14 +34,12 @@
 		"eslint-config-prettier": "^10.0.1",
 		"eslint-import-resolver-typescript": "^3.8.0",
 		"eslint-plugin-import": "^2.31.0",
-		"husky": "^9.1.7",
 		"jasmine-core": "~5.4.0",
 		"karma": "~6.4.0",
 		"karma-chrome-launcher": "~3.2.0",
 		"karma-coverage": "~2.2.0",
 		"karma-jasmine": "~5.1.0",
 		"karma-jasmine-html-reporter": "~2.1.0",
-		"lint-staged": "^15.4.3",
 		"postcss": "^8.5.2",
 		"prettier": "3.5.1",
 		"stylelint": "^16.14.1",
