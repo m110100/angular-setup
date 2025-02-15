@@ -1,5 +1,5 @@
 {
-  "name": "startup",
+  "name": "angular-setup",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
